@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE7ED77282E23950089832A /* StarCrushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED76282E23950089832A /* StarCrushApp.swift */; };
+		5DE7ED79282E23950089832A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED78282E23950089832A /* ContentView.swift */; };
+		5DE7ED7B282E23970089832A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7ED7A282E23970089832A /* Assets.xcassets */; };
+		5DE7ED7E282E23970089832A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7ED7D282E23970089832A /* Preview Assets.xcassets */; };
+		5DE7ED88282E23970089832A /* StarCrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED87282E23970089832A /* StarCrushTests.swift */; };
+		5DE7ED92282E23970089832A /* StarCrushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED91282E23970089832A /* StarCrushUITests.swift */; };
+		5DE7ED94282E23970089832A /* StarCrushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED93282E23970089832A /* StarCrushUITestsLaunchTests.swift */; };
+		5DE7EDA1282E23DD0089832A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7EDA0282E23DD0089832A /* Animation.swift */; };
+		5DE7EDA3282E24120089832A /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7EDA2282E24110089832A /* PreferenceKey.swift */; };
+		5DE7EDA5282E24340089832A /* With.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7EDA4282E24340089832A /* With.swift */; };
+		5DE7EDA7282E24540089832A /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7EDA6282E24540089832A /* GameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE7ED84282E23970089832A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE7ED6B282E23950089832A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE7ED72282E23950089832A;
+			remoteInfo = StarCrush;
+		};
+		5DE7ED8E282E23970089832A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE7ED6B282E23950089832A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE7ED72282E23950089832A;
+			remoteInfo = StarCrush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE7ED73282E23950089832A /* StarCrush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarCrush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7ED76282E23950089832A /* StarCrushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCrushApp.swift; sourceTree = "<group>"; };
+		5DE7ED78282E23950089832A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DE7ED7A282E23970089832A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE7ED7D282E23970089832A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DE7ED83282E23970089832A /* StarCrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarCrushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7ED87282E23970089832A /* StarCrushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCrushTests.swift; sourceTree = "<group>"; };
+		5DE7ED8D282E23970089832A /* StarCrushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarCrushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE7ED91282E23970089832A /* StarCrushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCrushUITests.swift; sourceTree = "<group>"; };
+		5DE7ED93282E23970089832A /* StarCrushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCrushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DE7EDA0282E23DD0089832A /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		5DE7EDA2282E24110089832A /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		5DE7EDA4282E24340089832A /* With.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = With.swift; sourceTree = "<group>"; };
+		5DE7EDA6282E24540089832A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE7ED70282E23950089832A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED80282E23970089832A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED8A282E23970089832A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE7ED6A282E23950089832A = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED75282E23950089832A /* StarCrush */,
+				5DE7ED86282E23970089832A /* StarCrushTests */,
+				5DE7ED90282E23970089832A /* StarCrushUITests */,
+				5DE7ED74282E23950089832A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE7ED74282E23950089832A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED73282E23950089832A /* StarCrush.app */,
+				5DE7ED83282E23970089832A /* StarCrushTests.xctest */,
+				5DE7ED8D282E23970089832A /* StarCrushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE7ED75282E23950089832A /* StarCrush */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED76282E23950089832A /* StarCrushApp.swift */,
+				5DE7ED78282E23950089832A /* ContentView.swift */,
+				5DE7EDA0282E23DD0089832A /* Animation.swift */,
+				5DE7EDA2282E24110089832A /* PreferenceKey.swift */,
+				5DE7EDA4282E24340089832A /* With.swift */,
+				5DE7EDA6282E24540089832A /* GameViewModel.swift */,
+				5DE7ED7A282E23970089832A /* Assets.xcassets */,
+				5DE7ED7C282E23970089832A /* Preview Content */,
+			);
+			path = StarCrush;
+			sourceTree = "<group>";
+		};
+		5DE7ED7C282E23970089832A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED7D282E23970089832A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DE7ED86282E23970089832A /* StarCrushTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED87282E23970089832A /* StarCrushTests.swift */,
+			);
+			path = StarCrushTests;
+			sourceTree = "<group>";
+		};
+		5DE7ED90282E23970089832A /* StarCrushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7ED91282E23970089832A /* StarCrushUITests.swift */,
+				5DE7ED93282E23970089832A /* StarCrushUITestsLaunchTests.swift */,
+			);
+			path = StarCrushUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE7ED72282E23950089832A /* StarCrush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7ED97282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrush" */;
+			buildPhases = (
+				5DE7ED6F282E23950089832A /* Sources */,
+				5DE7ED70282E23950089832A /* Frameworks */,
+				5DE7ED71282E23950089832A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarCrush;
+			productName = StarCrush;
+			productReference = 5DE7ED73282E23950089832A /* StarCrush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE7ED82282E23970089832A /* StarCrushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7ED9A282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrushTests" */;
+			buildPhases = (
+				5DE7ED7F282E23970089832A /* Sources */,
+				5DE7ED80282E23970089832A /* Frameworks */,
+				5DE7ED81282E23970089832A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE7ED85282E23970089832A /* PBXTargetDependency */,
+			);
+			name = StarCrushTests;
+			productName = StarCrushTests;
+			productReference = 5DE7ED83282E23970089832A /* StarCrushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE7ED8C282E23970089832A /* StarCrushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE7ED9D282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrushUITests" */;
+			buildPhases = (
+				5DE7ED89282E23970089832A /* Sources */,
+				5DE7ED8A282E23970089832A /* Frameworks */,
+				5DE7ED8B282E23970089832A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE7ED8F282E23970089832A /* PBXTargetDependency */,
+			);
+			name = StarCrushUITests;
+			productName = StarCrushUITests;
+			productReference = 5DE7ED8D282E23970089832A /* StarCrushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE7ED6B282E23950089832A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5DE7ED72282E23950089832A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5DE7ED82282E23970089832A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5DE7ED72282E23950089832A;
+					};
+					5DE7ED8C282E23970089832A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5DE7ED72282E23950089832A;
+					};
+				};
+			};
+			buildConfigurationList = 5DE7ED6E282E23950089832A /* Build configuration list for PBXProject "StarCrush" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE7ED6A282E23950089832A;
+			productRefGroup = 5DE7ED74282E23950089832A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE7ED72282E23950089832A /* StarCrush */,
+				5DE7ED82282E23970089832A /* StarCrushTests */,
+				5DE7ED8C282E23970089832A /* StarCrushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE7ED71282E23950089832A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7ED7E282E23970089832A /* Preview Assets.xcassets in Resources */,
+				5DE7ED7B282E23970089832A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED81282E23970089832A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED8B282E23970089832A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE7ED6F282E23950089832A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7EDA7282E24540089832A /* GameViewModel.swift in Sources */,
+				5DE7EDA5282E24340089832A /* With.swift in Sources */,
+				5DE7ED79282E23950089832A /* ContentView.swift in Sources */,
+				5DE7EDA1282E23DD0089832A /* Animation.swift in Sources */,
+				5DE7EDA3282E24120089832A /* PreferenceKey.swift in Sources */,
+				5DE7ED77282E23950089832A /* StarCrushApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED7F282E23970089832A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7ED88282E23970089832A /* StarCrushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE7ED89282E23970089832A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE7ED94282E23970089832A /* StarCrushUITestsLaunchTests.swift in Sources */,
+				5DE7ED92282E23970089832A /* StarCrushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE7ED85282E23970089832A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE7ED72282E23950089832A /* StarCrush */;
+			targetProxy = 5DE7ED84282E23970089832A /* PBXContainerItemProxy */;
+		};
+		5DE7ED8F282E23970089832A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE7ED72282E23950089832A /* StarCrush */;
+			targetProxy = 5DE7ED8E282E23970089832A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DE7ED95282E23970089832A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DE7ED96282E23970089832A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE7ED98282E23970089832A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarCrush/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE7ED99282E23970089832A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarCrush/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DE7ED9B282E23970089832A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCrush.app/StarCrush";
+			};
+			name = Debug;
+		};
+		5DE7ED9C282E23970089832A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCrush.app/StarCrush";
+			};
+			name = Release;
+		};
+		5DE7ED9E282E23970089832A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarCrush;
+			};
+			name = Debug;
+		};
+		5DE7ED9F282E23970089832A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TheDR.StarCrushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarCrush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE7ED6E282E23950089832A /* Build configuration list for PBXProject "StarCrush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7ED95282E23970089832A /* Debug */,
+				5DE7ED96282E23970089832A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7ED97282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7ED98282E23970089832A /* Debug */,
+				5DE7ED99282E23970089832A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7ED9A282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7ED9B282E23970089832A /* Debug */,
+				5DE7ED9C282E23970089832A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE7ED9D282E23970089832A /* Build configuration list for PBXNativeTarget "StarCrushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE7ED9E282E23970089832A /* Debug */,
+				5DE7ED9F282E23970089832A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE7ED6B282E23950089832A /* Project object */;
+}
